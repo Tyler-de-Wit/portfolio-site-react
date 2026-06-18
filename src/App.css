@@ -9,3 +9,45 @@
   color: var(--background);
   background-color: var(--links);
 }
+
+/* Header Styling */
+header h1,
+header h2 {
+  color: var(--headings);
+}
+header p {
+  color: var(--body-text);
+}
+
+header {
+  background-color: var(--background);
+}
+
+/* Button Links */
+.button-link {
+  color: var(--background);
+  background-color: var(--links);
+  border: 1px solid transparent;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+.button-link:hover {
+  color: var(--links);
+  background-color: var(--background);
+  border: 1px solid var(--links);
+}
+
+.button-link-2 {
+  color: var(--links);
+  background-color: var(--background);
+  border: 1px solid var(--links);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+.button-link-2:hover {
+  color: var(--background);
+  background-color: var(--links);
+  border: 1px solid transparent;
+}
