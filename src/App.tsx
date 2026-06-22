@@ -1,6 +1,7 @@
 import "./App.css";
 import Navigation from "./components/Navigation";
 import HeaderSection from "./components/HeaderSection";
+import AboutSection from "./components/AboutSection";
 
 function App() {
   return (
@@ -10,9 +11,8 @@ function App() {
         <HeaderSection />
       </header>
       <main>
-        <hr />
         <section id="about">
-          <h2>About Section</h2>
+          <AboutSection />
         </section>
         <hr />
         <section id="my-work">
