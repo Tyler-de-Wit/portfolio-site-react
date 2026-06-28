@@ -2,6 +2,7 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import HeaderSection from "./components/HeaderSection";
 import AboutSection from "./components/AboutSection";
+import MyWorkSection from "./components/MyWorkSection";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         </section>
         <hr />
         <section id="my-work">
-          <h2>My Work Section</h2>
+          <MyWorkSection />
         </section>
         <hr />
         <section id="services">
