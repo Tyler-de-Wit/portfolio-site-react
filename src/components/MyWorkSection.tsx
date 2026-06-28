@@ -16,12 +16,14 @@ const MyWorkSection = () => {
                     className="card-img-top"
                   />
                 </a>
+                <hr className="m-0" />
                 <div className="card-body d-flex flex-column">
                   <h3 className="card-title fs-5">{project.title}</h3>
                   <p className="card-text">{project.text}</p>
                   <a
                     href={project.linkHref}
                     className="btn button-link mt-auto"
+                    target="_blank"
                   >
                     {project.linkText}
                   </a>
