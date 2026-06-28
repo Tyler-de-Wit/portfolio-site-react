@@ -8,7 +8,7 @@ const MyWorkSection = () => {
         <div className="row g-5">
           {projectCards.map((project) => (
             <div className="col-12 col-md-6 col-lg-4" key={project.id}>
-              <div className="card">
+              <div className="card h-100">
                 <a href={project.linkHref}>
                   <img
                     src={project.imageSrc}
@@ -16,10 +16,13 @@ const MyWorkSection = () => {
                     className="card-img-top"
                   />
                 </a>
-                <div className="card-body">
+                <div className="card-body d-flex flex-column">
                   <h3 className="card-title fs-5">{project.title}</h3>
                   <p className="card-text">{project.text}</p>
-                  <a href={project.linkHref} className="btn button-link">
+                  <a
+                    href={project.linkHref}
+                    className="btn button-link mt-auto"
+                  >
                     {project.linkText}
                   </a>
                 </div>
