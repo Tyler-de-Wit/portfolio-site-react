@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import HeaderSection from "./components/HeaderSection";
 import AboutSection from "./components/AboutSection";
 import MyWorkSection from "./components/MyWorkSection";
+import ServicesSection from "./components/ServicesSection";
 
 function App() {
   return (
@@ -20,13 +21,16 @@ function App() {
           <MyWorkSection />
         </section>
         <hr />
-        <section id="services">
-          <h2>Services Section</h2>
-        </section>
-        <hr />
-        <section id="contact">
-          <h2>Contact Section</h2>
-        </section>
+        <div className="container">
+          <div className="row g-5">
+            <section id="services" className="col-12 col-lg-6">
+              <ServicesSection />
+            </section>
+            <section id="contact" className="col-12 col-lg-6">
+              <h2>Contact Section</h2>
+            </section>
+          </div>
+        </div>
       </main>
       <footer></footer>
     </>
