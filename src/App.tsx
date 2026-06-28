@@ -5,11 +5,12 @@ import AboutSection from "./components/AboutSection";
 import MyWorkSection from "./components/MyWorkSection";
 import ServicesSection from "./components/ServicesSection";
 import ContactSection from "./components/ContactSection";
+import FooterSection from "./components/FooterSection";
 
 function App() {
   return (
     <>
-      <header>
+      <header id="header">
         <Navigation />
         <HeaderSection />
       </header>
@@ -33,7 +34,10 @@ function App() {
           </div>
         </div>
       </main>
-      <footer></footer>
+      <hr />
+      <footer>
+        <FooterSection />
+      </footer>
     </>
   );
 }

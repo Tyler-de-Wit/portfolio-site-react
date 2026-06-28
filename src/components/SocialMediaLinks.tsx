@@ -1,6 +1,6 @@
 const SocialMediaLinks = () => {
   return (
-    <div>
+    <div className="mb-4">
       <a href="#">
         <i className="bi bi-envelope fs-4 me-3"></i>
       </a>
