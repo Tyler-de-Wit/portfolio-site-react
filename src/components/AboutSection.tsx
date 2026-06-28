@@ -1,3 +1,5 @@
+import SocialMediaLinks from "./SocialMediaLinks";
+
 const AboutSection = () => {
   return (
     <>
@@ -114,6 +116,10 @@ const AboutSection = () => {
               photography as a hobby and taking professional photos for your
               website.
             </p>
+            <p>
+              <strong>Email:</strong> tylerdewitdev@gmail.com
+            </p>
+            <SocialMediaLinks />
           </div>
         </div>
       </div>
