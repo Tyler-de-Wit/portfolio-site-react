@@ -4,6 +4,7 @@ import HeaderSection from "./components/HeaderSection";
 import AboutSection from "./components/AboutSection";
 import MyWorkSection from "./components/MyWorkSection";
 import ServicesSection from "./components/ServicesSection";
+import ContactSection from "./components/ContactSection";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
               <ServicesSection />
             </section>
             <section id="contact" className="col-12 col-lg-6">
-              <h2>Contact Section</h2>
+              <ContactSection />
             </section>
           </div>
         </div>
