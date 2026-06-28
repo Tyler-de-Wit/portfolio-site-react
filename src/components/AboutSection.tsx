@@ -115,6 +115,15 @@ const AboutSection = () => {
               website.
             </p>
             <p>
+              I can set up a personal blog site for you to document your
+              interests. I can create a personal portfolio site just like this
+              one, to showcase your skills to the world. I can create a
+              fullstack application with authenticated users to help you run a
+              business or complete tasks. I always enjoy learning and creating
+              new things so feel free to get in touch and i'll do my best to
+              fulfill your ideas.
+            </p>
+            <p>
               <strong>Email:</strong> tylerdewitdev@gmail.com
             </p>
             <SocialMediaLinks />
