@@ -23,7 +23,7 @@ function App() {
           <MyWorkSection />
         </section>
         <hr />
-        <div className="container">
+        <div className="container mb-5">
           <div className="row g-5">
             <section id="services" className="col-12 col-lg-6">
               <ServicesSection />
@@ -34,8 +34,7 @@ function App() {
           </div>
         </div>
       </main>
-      <hr />
-      <footer>
+      <footer className="bg-dark">
         <FooterSection />
       </footer>
     </>

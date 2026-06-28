@@ -6,7 +6,7 @@ const FooterSection = () => {
   return (
     <>
       <div className="container">
-        <div className="row g-5">
+        <div className="row gx-5 gy-4">
           <div className="col-12 col-lg-6 mb-4">
             <img
               src="https://placehold.co/30x30"
@@ -15,7 +15,7 @@ const FooterSection = () => {
               className="d-inline-block align-top mb-2"
               alt="Site Logo"
             />
-            <p>
+            <p className="text-light">
               I have a passion for creating pleasurable front-end layouts that
               are largely focused on UX and Accessibility. As well as functional
               back-end systems that help you achieve your goals. I also enjoy
@@ -28,7 +28,7 @@ const FooterSection = () => {
             </a>
           </div>
           <div className="col-12 col-lg-6 mb-4">
-            <h2 className="fs-5">Quick Links</h2>
+            <h2 className="fs-5 text-light">Quick Links</h2>
             <ul className="list-unstyled">
               <li className="mb-2">
                 <a href="#about">About</a>
@@ -45,10 +45,12 @@ const FooterSection = () => {
             </ul>
           </div>
         </div>
-        <hr />
+        <hr className="text-light" />
         <div className="row">
           <div className="col-md-12 text-center">
-            <p>&copy; {currentYear} Tyler de Wit. All rights reserved.</p>
+            <p className="text-light">
+              &copy; {currentYear} Tyler de Wit. All rights reserved.
+            </p>
           </div>
         </div>
       </div>
