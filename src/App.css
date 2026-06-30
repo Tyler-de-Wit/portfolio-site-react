@@ -105,6 +105,12 @@ header {
 .secondary-text {
   color: var(--secondary-text);
 }
+.link-text {
+  color: var(--links);
+}
+.link-text:hover {
+  color: var(--accents);
+}
 
 /* Background Colours */
 .card-background {

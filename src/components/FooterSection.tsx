@@ -31,16 +31,24 @@ const FooterSection = () => {
             <h2 className="fs-5 text-light">Quick Links</h2>
             <ul className="list-unstyled">
               <li className="mb-2">
-                <a href="#about">About</a>
+                <a href="#about" className="link-text">
+                  About
+                </a>
               </li>
               <li className="mb-2">
-                <a href="#my-work">My Work</a>
+                <a href="#my-work" className="link-text">
+                  My Work
+                </a>
               </li>
               <li className="mb-2">
-                <a href="#services">Services</a>
+                <a href="#services" className="link-text">
+                  Services
+                </a>
               </li>
               <li className="mb-2">
-                <a href="#contact">Contact</a>
+                <a href="#contact" className="link-text">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
