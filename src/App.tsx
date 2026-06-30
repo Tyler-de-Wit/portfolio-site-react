@@ -18,12 +18,10 @@ function App() {
         <section id="about">
           <AboutSection />
         </section>
-        <hr />
         <section id="my-work">
           <MyWorkSection />
         </section>
-        <hr />
-        <div className="container mb-5">
+        <div className="container mb-5 mt-4">
           <div className="row g-5">
             <section id="services" className="col-12 col-lg-6">
               <ServicesSection />

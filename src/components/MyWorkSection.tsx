@@ -3,8 +3,8 @@ import projectCards from "../data/projectCards";
 const MyWorkSection = () => {
   return (
     <>
-      <h2 className="text-center mb-4 heading-text">My Work</h2>
-      <div className="container mb-5">
+      <h2 className="text-center mb-4 pt-4 heading-text">My Work</h2>
+      <div className="container pb-5">
         <div className="row g-5">
           {projectCards.map((project) => (
             <div className="col-12 col-md-6 col-lg-4" key={project.id}>

@@ -23,6 +23,10 @@ header {
   background-color: var(--background);
 }
 
+#my-work {
+  background-color: var(--background);
+}
+
 /* Button Links */
 .button-link {
   color: var(--background);
