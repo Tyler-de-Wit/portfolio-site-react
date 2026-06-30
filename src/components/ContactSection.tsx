@@ -57,9 +57,11 @@ const ContactSection = () => {
             <option selected disabled>
               Select A Service
             </option>
-            <option value="1">Service 1</option>
-            <option value="2">Service 2</option>
-            <option value="3">Service 3</option>
+            <option value="portfolio-website">Portfolio Website</option>
+            <option value="personal-blog">Personal Blog</option>
+            <option value="domain-name-hosting">Domain Name / Hosting</option>
+            <option value="website-seo">Website SEO</option>
+            <option value="accessibility-audit">Accessibility Audit</option>
           </select>
         </div>
         {/* Message */}
@@ -73,6 +75,7 @@ const ContactSection = () => {
           <textarea
             className="form-control"
             aria-label="Write A Message"
+            rows={5}
           ></textarea>
         </div>
         {/* reCAPTCHA */}
