@@ -11,24 +11,29 @@ const AboutSection = () => {
                 {/* Frameworks / Libraries */}
                 <h2 className="fs-4">Frameworks / Libraries</h2>
                 <ul className="list-group mb-4">
-                  <li className="list-group-item list-group-item-secondary list-group-item-action fs-5">
-                    <i className="bi bi-filetype-js me-3 fs-5"></i>
+                  <li className="list-group-item list-group-item-action fs-5 text-next">
+                    <i className="bi bi-filetype-js me-3 fs-5 text-next"></i>
                     Next.js
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5">
-                    <i className="bi bi-filetype-js me-3 fs-5"></i>React
+                  <li className="list-group-item list-group-item-action fs-5 text-react">
+                    <i className="bi bi-filetype-js me-3 fs-5 text-react"></i>
+                    React
                   </li>
-                  <li className="list-group-item list-group-item-secondary list-group-item-action fs-5">
-                    <i className="bi bi-filetype-php me-3 fs-5"></i>Laravel
+                  <li className="list-group-item list-group-item-action fs-5 text-laravel">
+                    <i className="bi bi-filetype-php me-3 fs-5 text-laravel"></i>
+                    Laravel
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5">
-                    <i className="bi bi-filetype-php me-3 fs-5"></i>WordPress
+                  <li className="list-group-item list-group-item-action fs-5 text-wordpress">
+                    <i className="bi bi-filetype-php me-3 fs-5 text-wordpress"></i>
+                    WordPress
                   </li>
-                  <li className="list-group-item list-group-item-secondary list-group-item-action fs-5">
-                    <i className="bi bi-filetype-css me-3 fs-5"></i>Bootstsrap
+                  <li className="list-group-item list-group-item-action fs-5 text-bootstrap">
+                    <i className="bi bi-filetype-css me-3 fs-5 text-bootstrap"></i>
+                    Bootstsrap
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5">
-                    <i className="bi bi-filetype-css me-3 fs-5"></i>SASS
+                  <li className="list-group-item list-group-item-action fs-5 text-sass">
+                    <i className="bi bi-filetype-css me-3 fs-5 text-sass"></i>
+                    SASS
                   </li>
                 </ul>
               </div>
@@ -36,23 +41,26 @@ const AboutSection = () => {
                 {/* Languages */}
                 <h2 className="fs-4">Languages</h2>
                 <ul className="list-group mb-4">
-                  <li className="list-group-item list-group-item-secondary list-group-item-action fs-5">
-                    <i className="bi bi-javascript me-3 fs-5"></i>JavaScript
+                  <li className="list-group-item list-group-item-action fs-5 text-js">
+                    <i className="bi bi-javascript me-3 fs-5 text-js"></i>
+                    JavaScript
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5">
-                    <i className="bi bi-typescript me-3 fs-5"></i>TypeScript
+                  <li className="list-group-item list-group-item-action fs-5 text-ts">
+                    <i className="bi bi-typescript me-3 fs-5 text-ts"></i>
+                    TypeScript
                   </li>
-                  <li className="list-group-item list-group-item-secondary list-group-item-action fs-5">
-                    <i className="bi bi-filetype-php me-3 fs-5"></i>PHP
+                  <li className="list-group-item list-group-item-action fs-5 text-php">
+                    <i className="bi bi-filetype-php me-3 fs-5 text-php"></i>PHP
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5">
-                    <i className="bi bi-css me-3 fs-5"></i>CSS
+                  <li className="list-group-item list-group-item-action fs-5 text-css">
+                    <i className="bi bi-css me-3 fs-5 text-css"></i>CSS
                   </li>
-                  <li className="list-group-item list-group-item-secondary list-group-item-action fs-5">
-                    <i className="bi bi-filetype-html me-3 fs-5"></i>HTML
+                  <li className="list-group-item list-group-item-action fs-5 text-html">
+                    <i className="bi bi-filetype-html me-3 fs-5 text-html"></i>
+                    HTML
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5">
-                    <i className="bi bi-filetype-xml me-3 fs-5"></i>XML
+                  <li className="list-group-item list-group-item-action fs-5 text-xml">
+                    <i className="bi bi-filetype-xml me-3 fs-5 text-xml"></i>XML
                   </li>
                 </ul>
               </div>
@@ -107,14 +115,14 @@ const AboutSection = () => {
           <div className="col-12 col-lg-6 mb-4">
             <h2 className="fs-6 m-0">Who am I?</h2>
             <h3 className="fs-1 mb-3">Web Development Freelancer</h3>
-            <p>
+            <p className="text-justify">
               I have a passion for creating pleasurable front-end layouts that
               are largely focused on UX and Accessibility. As well as functional
               back-end systems that help you achieve your goals. I also enjoy
               photography as a hobby and taking professional photos for your
               website.
             </p>
-            <p>
+            <p className="text-justify">
               I can set up a personal blog site for you to document your
               interests. I can create a personal portfolio site just like this
               one, to showcase your skills to the world. I can create a

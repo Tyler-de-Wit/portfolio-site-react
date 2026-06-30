@@ -80,3 +80,17 @@ header {
 .text-ts {
   color: #3178c6;
 }
+.text-laravel {
+  color: #ff2d20;
+}
+.text-html {
+  color: #f06529;
+}
+.text-xml {
+  color: #e34c26;
+}
+
+/* Align Text */
+.text-justify {
+  text-align: justify;
+}
