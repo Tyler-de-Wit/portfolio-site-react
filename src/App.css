@@ -128,3 +128,23 @@ header {
 .thin-border {
   border-color: var(--borders);
 }
+
+/* Scroll Animations */
+.invisible {
+  opacity: 0;
+}
+
+.fade-in-left {
+  animation: fadeInLeft 0.8s ease-out forwards;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
