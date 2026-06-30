@@ -1,4 +1,12 @@
+import { useInView } from "react-intersection-observer";
+
 const HeaderSection = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+    delay: 200,
+  });
+
   return (
     <>
       <div className="container">
@@ -18,7 +26,10 @@ const HeaderSection = () => {
               Contact Me
             </a>
           </div>
-          <div className="col-12 col-lg-4 mb-4">
+          <div
+            className={`col-12 col-lg-4 mb-4 ${inView ? "fade-in-right" : "invisible"}`}
+            ref={ref}
+          >
             <img
               src="https://placehold.co/400x500"
               width="400"
