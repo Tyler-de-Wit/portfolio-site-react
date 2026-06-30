@@ -1,11 +1,14 @@
 const ContactSection = () => {
   return (
     <>
-      <h2>Contact Me</h2>
+      <h2 className="heading-text">Contact Me</h2>
       <form className="mt-4">
         {/* Name */}
         <div className="mb-3">
-          <label htmlFor="contactName" className="form-label">
+          <label
+            htmlFor="contactName"
+            className="form-label fw-semibold body-text"
+          >
             Name
           </label>
           <input
@@ -15,13 +18,16 @@ const ContactSection = () => {
             aria-describedby="nameHelp"
             placeholder="Enter your name"
           />
-          <div id="nameHelp" className="form-text">
+          <div id="nameHelp" className="form-text secondary-text">
             Only your first name is required.
           </div>
         </div>
         {/* Email */}
         <div className="mb-3">
-          <label htmlFor="contactEmail" className="form-label">
+          <label
+            htmlFor="contactEmail"
+            className="form-label fw-semibold body-text"
+          >
             Email address
           </label>
           <input
@@ -31,13 +37,16 @@ const ContactSection = () => {
             aria-describedby="emailHelp"
             placeholder="Enter your email address"
           />
-          <div id="emailHelp" className="form-text">
+          <div id="emailHelp" className="form-text secondary-text">
             This is only used to contact you about your enquiry.
           </div>
         </div>
         {/* Service */}
         <div className="mb-3">
-          <label htmlFor="contactService" className="form-label">
+          <label
+            htmlFor="contactService"
+            className="form-label fw-semibold body-text"
+          >
             Service
           </label>
           <select
@@ -55,7 +64,10 @@ const ContactSection = () => {
         </div>
         {/* Message */}
         <div className="mb-3">
-          <label htmlFor="contactMessage" className="form-label">
+          <label
+            htmlFor="contactMessage"
+            className="form-label fw-semibold body-text"
+          >
             Message
           </label>
           <textarea

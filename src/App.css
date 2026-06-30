@@ -94,3 +94,27 @@ header {
 .text-justify {
   text-align: justify;
 }
+
+/* Text Colours */
+.heading-text {
+  color: var(--headings);
+}
+.body-text {
+  color: var(--body-text);
+}
+.secondary-text {
+  color: var(--secondary-text);
+}
+
+/* Background Colours */
+.card-background {
+  background-color: var(--card);
+}
+.dark-background {
+  background-color: var(--dark-background);
+}
+
+/* Border Colours */
+.thin-border {
+  border-color: var(--borders);
+}

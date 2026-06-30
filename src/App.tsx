@@ -34,7 +34,7 @@ function App() {
           </div>
         </div>
       </main>
-      <footer className="bg-dark">
+      <footer className="dark-background">
         <FooterSection />
       </footer>
     </>
