@@ -15,7 +15,7 @@ const FooterSection = () => {
               className="d-inline-block align-top mb-2"
               alt="Site Logo"
             />
-            <p className="text-light">
+            <p className="text-light text-justify">
               I have a passion for creating pleasurable front-end layouts that
               are largely focused on UX and Accessibility. As well as functional
               back-end systems that help you achieve your goals. I also enjoy
