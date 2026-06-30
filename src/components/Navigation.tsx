@@ -19,7 +19,7 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <Nav.Link href="#about" className="nav-link">
-              About
+              About Me
             </Nav.Link>
             <Nav.Link href="#my-work" className="nav-link">
               My Work
