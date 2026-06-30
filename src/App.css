@@ -51,3 +51,32 @@ header {
   background-color: var(--links);
   border: 1px solid transparent;
 }
+
+/* Brand Text Colours */
+.text-bootstrap {
+  color: #7952b3;
+}
+.text-js {
+  color: #f0db4f;
+}
+.text-wordpress {
+  color: #21759b;
+}
+.text-sass {
+  color: #cc6699;
+}
+.text-php {
+  color: #777bb3;
+}
+.text-react {
+  color: #61dbfb;
+}
+.text-next {
+  color: #000000;
+}
+.text-css {
+  color: #33a9dc;
+}
+.text-ts {
+  color: #3178c6;
+}

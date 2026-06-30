@@ -18,15 +18,27 @@ const MyWorkSection = () => {
                 </a>
                 <hr className="m-0" />
                 <div className="card-body d-flex flex-column">
-                  <h3 className="card-title fs-5">{project.title}</h3>
+                  <h3 className="card-title fs-4">{project.title}</h3>
                   <p className="card-text">{project.text}</p>
-                  <a
-                    href={project.linkHref}
-                    className="btn button-link mt-auto"
-                    target="_blank"
-                  >
-                    {project.linkText}
-                  </a>
+                  <div className="mt-auto">
+                    <div className="mb-2 mt-2">
+                      <span className="fw-semibold">Built With:</span>
+                      <br />
+                      {project.projectSkills.map((skill) => (
+                        <span key={skill.skillName} className="me-3 fs-5">
+                          <i className={`${skill.skillIcon} fs-4`}></i>
+                          {skill.skillName}
+                        </span>
+                      ))}
+                    </div>
+                    <a
+                      href={project.linkHref}
+                      className="btn button-link w-100"
+                      target="_blank"
+                    >
+                      {project.linkText}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
