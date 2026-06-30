@@ -36,7 +36,9 @@ const MyWorkSection = () => {
         cycleToNextProjectCard();
       }, 6000);
 
-      return () => clearInterval(interval);
+      return () => {
+        clearInterval(interval);
+      };
     }
   }, [buttonClicked]);
 
