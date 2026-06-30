@@ -1,13 +1,30 @@
 import SocialMediaLinks from "./SocialMediaLinks";
+import { useInView } from "react-intersection-observer";
+
+const useInViewOptions = {
+  triggerOnce: true,
+  threshold: 0.2,
+  delay: 200,
+};
 
 const AboutSection = () => {
+  const { ref: refFrameworks, inView: inViewFrameworks } =
+    useInView(useInViewOptions);
+  const { ref: refLanguages, inView: inViewLanguages } =
+    useInView(useInViewOptions);
+  const { ref: refTools, inView: inViewTools } = useInView(useInViewOptions);
+  const { ref: refSkills, inView: inViewSkills } = useInView(useInViewOptions);
+
   return (
     <>
       <div className="container mt-5 mb-4">
         <div className="row g-5 align-items-center">
           <div className="col-12 col-lg-6 mb-4">
             <div className="row">
-              <div className="col-12 col-lg-6">
+              <div
+                className={`col-12 col-lg-6 ${inViewFrameworks ? "fade-in-top" : "invisible"}`}
+                ref={refFrameworks}
+              >
                 {/* Frameworks / Libraries */}
                 <h2 className="fs-4 heading-text">Frameworks / Libraries</h2>
                 <ul className="list-group mb-4">
@@ -37,7 +54,10 @@ const AboutSection = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-12 col-lg-6">
+              <div
+                className={`col-12 col-lg-6 ${inViewLanguages ? "fade-in-top" : "invisible"}`}
+                ref={refLanguages}
+              >
                 {/* Languages */}
                 <h2 className="fs-4 heading-text">Languages</h2>
                 <ul className="list-group mb-4">
@@ -67,7 +87,10 @@ const AboutSection = () => {
             </div>
 
             <div className="row">
-              <div className="col-12 col-lg-6">
+              <div
+                className={`col-12 col-lg-6 ${inViewTools ? "fade-in-top" : "invisible"}`}
+                ref={refTools}
+              >
                 {/* Tools */}
                 <h2 className="fs-4 heading-text">Tools</h2>
                 <ul className="list-group mb-4">
@@ -88,7 +111,10 @@ const AboutSection = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-12 col-lg-6">
+              <div
+                className={`col-12 col-lg-6 ${inViewSkills ? "fade-in-top" : "invisible"}`}
+                ref={refSkills}
+              >
                 {/* Soft Skills */}
                 <h2 className="fs-4 heading-text">Soft Skills</h2>
                 <ul className="list-group mb-4">
