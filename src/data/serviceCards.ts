@@ -8,33 +8,33 @@ interface Project {
 const serviceCards: Project[] = [
   {
     id: 1,
-    icon: "bi bi-person-gear me-3 fs-5",
-    title: "Service Title",
-    text: "Some quick example text to build on the card title and make up the bulk of the cards content.",
+    icon: "bi bi-file-person me-3 fs-5",
+    title: "Portfolio Website",
+    text: "Full fledged portfolio site to showcase your skills, personality and goals in a professional manner.",
   },
   {
     id: 2,
-    icon: "bi bi-person-gear me-3 fs-5",
-    title: "Service Title",
-    text: "Some quick example text to build on the card title and make up the bulk of the cards content.",
+    icon: "bi bi-pencil me-3 fs-5",
+    title: "Personal Blog",
+    text: "I will set you up a blog using WordPress, where you can write posts, manage users, edit pages and have full customizability over your own site.",
   },
   {
     id: 3,
-    icon: "bi bi-person-gear me-3 fs-5",
-    title: "Service Title",
-    text: "Some quick example text to build on the card title and make up the bulk of the cards content.",
+    icon: "bi bi-database me-3 fs-5",
+    title: "Domain Name / Hosting",
+    text: "I can set up and manage your personal domain name and website hosting so you can focus on the important things.",
   },
   {
     id: 4,
-    icon: "bi bi-person-gear me-3 fs-5",
-    title: "Service Title",
-    text: "Some quick example text to build on the card title and make up the bulk of the cards content.",
+    icon: "bi bi-browser-chrome me-3 fs-5",
+    title: "Website SEO",
+    text: "I will go through your existing website and optimise it for search engines to bring you more organic traffic to your business or brand.",
   },
   {
     id: 5,
-    icon: "bi bi-person-gear me-3 fs-5",
-    title: "Service Title",
-    text: "Some quick example text to build on the card title and make up the bulk of the cards content.",
+    icon: "bi bi-universal-access me-3 fs-5",
+    title: "Accessibility Audit",
+    text: "I will optimise your website so it conforms with current accessibility standards and features to keep everyone happy.",
   },
 ];
 
