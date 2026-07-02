@@ -28,28 +28,28 @@ const AboutSection = () => {
                 {/* Frameworks / Libraries */}
                 <h2 className="fs-4 heading-text">Frameworks / Libraries</h2>
                 <ul className="list-group mb-4">
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-next">
-                    <i className="bi bi-filetype-js me-3 fs-5 text-next"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-next">
+                    <i className="bi bi-filetype-js me-3 text-next"></i>
                     Next.js
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-react">
-                    <i className="bi bi-filetype-js me-3 fs-5 text-react"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-react">
+                    <i className="bi bi-filetype-js me-3 text-react"></i>
                     React
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-laravel">
-                    <i className="bi bi-filetype-php me-3 fs-5 text-laravel"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-laravel">
+                    <i className="bi bi-filetype-php me-3 text-laravel"></i>
                     Laravel
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-wordpress">
-                    <i className="bi bi-filetype-php me-3 fs-5 text-wordpress"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-wordpress">
+                    <i className="bi bi-filetype-php me-3 text-wordpress"></i>
                     WordPress
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-bootstrap">
-                    <i className="bi bi-filetype-css me-3 fs-5 text-bootstrap"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-bootstrap">
+                    <i className="bi bi-filetype-css me-3 text-bootstrap"></i>
                     Bootstsrap
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-sass">
-                    <i className="bi bi-filetype-css me-3 fs-5 text-sass"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-sass">
+                    <i className="bi bi-filetype-css me-3 text-sass"></i>
                     SASS
                   </li>
                 </ul>
@@ -61,26 +61,26 @@ const AboutSection = () => {
                 {/* Languages */}
                 <h2 className="fs-4 heading-text">Languages</h2>
                 <ul className="list-group mb-4">
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-js">
-                    <i className="bi bi-javascript me-3 fs-5 text-js"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-js">
+                    <i className="bi bi-javascript me-3 text-js"></i>
                     JavaScript
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-ts">
-                    <i className="bi bi-typescript me-3 fs-5 text-ts"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-ts">
+                    <i className="bi bi-typescript me-3 text-ts"></i>
                     TypeScript
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-php">
-                    <i className="bi bi-filetype-php me-3 fs-5 text-php"></i>PHP
+                  <li className="list-group-item list-group-item-action card-background thin-border text-php">
+                    <i className="bi bi-filetype-php me-3 text-php"></i>PHP
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-css">
-                    <i className="bi bi-css me-3 fs-5 text-css"></i>CSS
+                  <li className="list-group-item list-group-item-action card-background thin-border text-css">
+                    <i className="bi bi-css me-3 text-css"></i>CSS
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-html">
-                    <i className="bi bi-filetype-html me-3 fs-5 text-html"></i>
+                  <li className="list-group-item list-group-item-action card-background thin-border text-html">
+                    <i className="bi bi-filetype-html me-3 text-html"></i>
                     HTML
                   </li>
-                  <li className="list-group-item list-group-item-action fs-5 card-background thin-border text-xml">
-                    <i className="bi bi-filetype-xml me-3 fs-5 text-xml"></i>XML
+                  <li className="list-group-item list-group-item-action card-background thin-border text-xml">
+                    <i className="bi bi-filetype-xml me-3 text-xml"></i>XML
                   </li>
                 </ul>
               </div>
