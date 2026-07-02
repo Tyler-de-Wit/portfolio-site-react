@@ -1,3 +1,5 @@
+import { useInView } from "react-intersection-observer";
+
 interface ProjectCardProps {
   project: {
     id: number;
@@ -18,9 +20,18 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ project, position }: ProjectCardProps) => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+    delay: 200,
+  });
+
   return (
     <div
-      className={`project-card fade-in ${position === 1 ? "col-12 col-lg-6" : "col-12 col-lg-3"} ${position > 0 ? "d-none d-lg-block" : ""}`}
+      className={`project-card ${position === 1 ? "col-12 col-lg-6" : "col-12 col-lg-3"} ${position > 0 ? "d-none d-lg-block" : ""} ${
+        inView ? "fade-in-right" : "invisible"
+      }`}
+      ref={ref}
     >
       <div
         className={`card h-100 card-background thin-border ${position === 1 ? "border-2" : ""}`}
