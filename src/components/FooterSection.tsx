@@ -16,11 +16,21 @@ const FooterSection = () => {
               alt="Site Logo"
             />
             <p className="text-light text-justify">
-              I have a passion for creating pleasurable front-end layouts that
-              are largely focused on UX and Accessibility. As well as functional
-              back-end systems that help you achieve your goals. I also enjoy
-              photography as a hobby and taking professional photos for your
-              website.
+              This site is my personal portfolio where I am showcasing all of my
+              previous projects along with my skillset and the services that I
+              offer. Feel free to check out some of my current live sites in the{" "}
+              <a href="#my-work" className="link-text">
+                My Work
+              </a>{" "}
+              section or contact me in the{" "}
+              <a href="#contact" className="link-text">
+                Contact
+              </a>{" "}
+              section. You can also view my{" "}
+              <a href="" className="link-text">
+                resume
+              </a>{" "}
+              here.
             </p>
             <SocialMediaLinks />
             <a className="btn button-link button-hover-drop" href="#header">
