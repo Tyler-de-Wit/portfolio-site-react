@@ -63,7 +63,6 @@ const MyWorkSection = () => {
                   setStartIndex(index);
                   setButtonClicked(true);
                 }}
-                aria-label={`Go to project ${index + 1}`}
               />
             ))}
           </div>
