@@ -20,7 +20,7 @@ interface ProjectCardProps {
 const ProjectCard = ({ project, position }: ProjectCardProps) => {
   return (
     <div
-      className={`project-card fade-in ${position === 1 ? "col-12 col-lg-6" : "col-12 col-lg-3"}`}
+      className={`project-card fade-in ${position === 1 ? "col-12 col-lg-6" : "col-12 col-lg-3"} ${position > 0 ? "d-none d-lg-block" : ""}`}
     >
       <div
         className={`card h-100 card-background thin-border ${position === 1 ? "border-2" : ""}`}
