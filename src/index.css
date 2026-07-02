@@ -15,3 +15,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Import Headings Font */
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("assets/SpaceGrotesk-VariableFont_wght.ttf") format("woff2");
+}
+
+/* Set Body Font */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Set Headings Font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "SpaceGrotesk", sans-serif;
+}
