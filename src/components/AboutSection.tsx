@@ -1,5 +1,17 @@
 import SocialMediaLinks from "./SocialMediaLinks";
 import { useInView } from "react-intersection-observer";
+import bootstrapIcon from "../assets/icons/bootstrap.svg";
+import cssIcon from "../assets/icons/css.svg";
+import javascriptIcon from "../assets/icons/javascript.svg";
+import nextjsIcon from "../assets/icons/nextjs.svg";
+import phpIcon from "../assets/icons/php.svg";
+import reactIcon from "../assets/icons/react.svg";
+import sassIcon from "../assets/icons/sass.svg";
+import typescriptIcon from "../assets/icons/typescript.svg";
+import wordpressIcon from "../assets/icons/wordpress.svg";
+import htmlIcon from "../assets/icons/html.svg";
+import laravelIcon from "../assets/icons/laravel.svg";
+import xmlIcon from "../assets/icons/xml.svg";
 
 const useInViewOptions = {
   triggerOnce: true,
@@ -29,27 +41,57 @@ const AboutSection = () => {
                 <h2 className="fs-4 heading-text">Frameworks / Libraries</h2>
                 <ul className="list-group mb-4">
                   <li className="list-group-item list-group-item-action card-background thin-border text-next">
-                    <i className="bi bi-filetype-js me-3 text-next"></i>
+                    <img
+                      src={nextjsIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     Next.js
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-react">
-                    <i className="bi bi-filetype-js me-3 text-react"></i>
+                    <img
+                      src={reactIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     React
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-laravel">
-                    <i className="bi bi-filetype-php me-3 text-laravel"></i>
+                    <img
+                      src={laravelIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     Laravel
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-wordpress">
-                    <i className="bi bi-filetype-php me-3 text-wordpress"></i>
+                    <img
+                      src={wordpressIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     WordPress
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-bootstrap">
-                    <i className="bi bi-filetype-css me-3 text-bootstrap"></i>
+                    <img
+                      src={bootstrapIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     Bootstsrap
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-sass">
-                    <i className="bi bi-filetype-css me-3 text-sass"></i>
+                    <img
+                      src={sassIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     SASS
                   </li>
                 </ul>
@@ -62,25 +104,58 @@ const AboutSection = () => {
                 <h2 className="fs-4 heading-text">Languages</h2>
                 <ul className="list-group mb-4">
                   <li className="list-group-item list-group-item-action card-background thin-border text-js">
-                    <i className="bi bi-javascript me-3 text-js"></i>
+                    <img
+                      src={javascriptIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     JavaScript
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-ts">
-                    <i className="bi bi-typescript me-3 text-ts"></i>
+                    <img
+                      src={typescriptIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     TypeScript
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-php">
-                    <i className="bi bi-filetype-php me-3 text-php"></i>PHP
+                    <img
+                      src={phpIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
+                    PHP
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-css">
-                    <i className="bi bi-css me-3 text-css"></i>CSS
+                    <img
+                      src={cssIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
+                    CSS
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-html">
-                    <i className="bi bi-filetype-html me-3 text-html"></i>
+                    <img
+                      src={htmlIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
                     HTML
                   </li>
                   <li className="list-group-item list-group-item-action card-background thin-border text-xml">
-                    <i className="bi bi-filetype-xml me-3 text-xml"></i>XML
+                    <img
+                      src={xmlIcon}
+                      width={25}
+                      height={25}
+                      className="mb-1 me-3"
+                    />
+                    XML
                   </li>
                 </ul>
               </div>
