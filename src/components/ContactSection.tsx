@@ -80,7 +80,7 @@ const ContactSection = () => {
         </div>
         {/* reCAPTCHA */}
         <div className="mb-3">reCAPTCHA</div>
-        <button type="submit" className="button-link">
+        <button type="submit" className="btn button-link button-hover-drop">
           Submit
         </button>
       </form>

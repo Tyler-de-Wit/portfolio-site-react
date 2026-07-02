@@ -19,10 +19,13 @@ const HeaderSection = () => {
               back-end. I am always looking to learn new things whether that be
               a framework, language, skill or project.
             </p>
-            <a href="#my-work" className="button-link me-2">
+            <a
+              href="#my-work"
+              className="btn button-link me-2 button-hover-drop"
+            >
               View My Work
             </a>
-            <a href="#contact" className="button-link-2">
+            <a href="#contact" className="btn button-link-2 button-hover-drop">
               Contact Me
             </a>
           </div>

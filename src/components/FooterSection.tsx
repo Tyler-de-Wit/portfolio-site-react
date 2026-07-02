@@ -23,7 +23,7 @@ const FooterSection = () => {
               website.
             </p>
             <SocialMediaLinks />
-            <a className="button-link" href="#header">
+            <a className="btn button-link button-hover-drop" href="#header">
               Back To Top
             </a>
           </div>

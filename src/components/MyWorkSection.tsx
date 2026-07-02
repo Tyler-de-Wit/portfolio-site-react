@@ -71,13 +71,13 @@ const MyWorkSection = () => {
           <div className="d-flex justify-content-center mt-1">
             <button
               onClick={handlePreviousProjectCard}
-              className="btn button-link-2 me-2"
+              className="btn button-link-2 me-2 button-hover-drop"
             >
               <i className="bi bi-arrow-left me-2"></i>Previous
             </button>
             <button
               onClick={handleNextProjectCard}
-              className="btn button-link-2 ms-2"
+              className="btn button-link-2 ms-2 button-hover-drop"
             >
               Next<i className="bi bi-arrow-right ms-2"></i>
             </button>
