@@ -4,8 +4,10 @@ interface Project {
   imageAlt: string;
   title: string;
   text: string;
-  linkHref: string;
-  linkText: string;
+  liveSitelinkHref: string;
+  liveSitelinkText: string;
+  repositorylinkHref: string;
+  repositorylinkText: string;
   projectSkills: ProjectSkill[];
 }
 
@@ -21,8 +23,11 @@ const projectCards: Project[] = [
     imageAlt: "...",
     title: "Project Management Application",
     text: "App build with next.js that communicates with an API to create, read, update and delete projects, milestones, tasks, checklist items, comments and users.",
-    linkHref: "https://at3-web-app-using-frameworks-tyler.vercel.app/",
-    linkText: "Visit Site",
+    liveSitelinkHref: "https://at3-web-app-using-frameworks-tyler.vercel.app/",
+    liveSitelinkText: "Live Demo",
+    repositorylinkHref:
+      "https://github.com/Tyler-de-Wit/at3-web-app-using-frameworks-Tyler-de-Wit",
+    repositorylinkText: "Source Code",
     projectSkills: [
       {
         skillIcon: "bi bi-filetype-js text-next",
@@ -44,8 +49,10 @@ const projectCards: Project[] = [
     imageAlt: "...",
     title: "Library Website",
     text: "Built specifically for a client at the NMT Library, this website helps new students at NMTAFE complete common tasks like signing into their student account for the first time or logging into the campus Wi-Fi.",
-    linkHref: "https://mytafespace.screencraft.net.au/",
-    linkText: "Visit Site",
+    liveSitelinkHref: "https://mytafespace.screencraft.net.au/",
+    liveSitelinkText: "Live Demo",
+    repositorylinkHref: "https://github.com/Tyler-de-Wit/Library-Project",
+    repositorylinkText: "Source Code",
     projectSkills: [
       {
         skillIcon: "bi bi-filetype-php text-wordpress",
@@ -67,8 +74,10 @@ const projectCards: Project[] = [
     imageAlt: "...",
     title: "TilsPics",
     text: "This is a site that I made for myself which allows me to upload, download and showcase my photography in it's full original quality.",
-    linkHref: "https://tilspics.com",
-    linkText: "Visit Site",
+    liveSitelinkHref: "https://tilspics.com",
+    liveSitelinkText: "Live Demo",
+    repositorylinkHref: "https://github.com/Tyler-de-Wit/tilspics",
+    repositorylinkText: "Source Code",
     projectSkills: [
       {
         skillIcon: "bi bi-filetype-php text-php",
@@ -90,8 +99,10 @@ const projectCards: Project[] = [
     imageAlt: "...",
     title: "Portfolio Website",
     text: "This is the website that you are currently on, which I made for myself to showcase my skillset, passion and gloals.",
-    linkHref: "https://tylerdewit.com",
-    linkText: "Visit Site",
+    liveSitelinkHref: "https://tylerdewit.com",
+    liveSitelinkText: "Live Demo",
+    repositorylinkHref: "https://github.com/Tyler-de-Wit/portfolio-site-react",
+    repositorylinkText: "Source Code",
     projectSkills: [
       {
         skillIcon: "bi bi-filetype-js text-react",
@@ -113,8 +124,10 @@ const projectCards: Project[] = [
     imageAlt: "...",
     title: "GuitarMatchup",
     text: "Being the first major site I ever made it's not winning any design awards, but it does showcase one of my other passions and has a backend where I can edit the weekly guitars showcase from inside the site.",
-    linkHref: "https://guitarmatchup.com",
-    linkText: "Visit Site",
+    liveSitelinkHref: "https://guitarmatchup.com",
+    liveSitelinkText: "Live Demo",
+    repositorylinkHref: "https://github.com/Tyler-de-Wit/guitarmatchup",
+    repositorylinkText: "Source Code",
     projectSkills: [
       {
         skillIcon: "bi bi-filetype-php text-php",

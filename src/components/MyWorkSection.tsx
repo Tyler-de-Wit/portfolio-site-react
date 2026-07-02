@@ -50,7 +50,7 @@ const MyWorkSection = () => {
           {visibleProjectCards.map((project) => (
             <div className="col-12 col-md-6 col-lg-4 fade-in" key={project.id}>
               <div className="card h-100 card-background thin-border">
-                <a href={project.linkHref}>
+                <a href={project.liveSitelinkHref}>
                   <img
                     src={project.imageSrc}
                     alt={project.imageAlt}
@@ -79,13 +79,24 @@ const MyWorkSection = () => {
                         </span>
                       ))}
                     </div>
-                    <a
-                      href={project.linkHref}
-                      className="btn button-link w-100"
-                      target="_blank"
-                    >
-                      {project.linkText}
-                    </a>
+                    <div className="d-flex gap-2">
+                      <a
+                        href={project.liveSitelinkHref}
+                        className="btn button-link w-50"
+                        target="_blank"
+                      >
+                        {project.liveSitelinkText}
+                        <i className="bi bi-arrow-up-right-square ms-2"></i>
+                      </a>
+                      <a
+                        href={project.repositorylinkHref}
+                        className="btn button-link w-50"
+                        target="_blank"
+                      >
+                        {project.repositorylinkText}
+                        <i className="bi bi-arrow-up-right-square ms-2"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
