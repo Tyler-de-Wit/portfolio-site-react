@@ -13,6 +13,7 @@ interface Project {
 
 interface ProjectSkill {
   skillIcon: string;
+  skillClass: string;
   skillName: string;
 }
 
@@ -30,15 +31,18 @@ const projectCards: Project[] = [
     repositorylinkText: "Source Code",
     projectSkills: [
       {
-        skillIcon: "bi bi-filetype-js text-next",
+        skillIcon: "nextjs",
+        skillClass: "text-next",
         skillName: "Next.js",
       },
       {
-        skillIcon: "bi bi-filetype-js text-react",
+        skillIcon: "react",
+        skillClass: "text-react",
         skillName: "React",
       },
       {
-        skillIcon: "bi bi-filetype-css text-bootstrap",
+        skillIcon: "bootstrap",
+        skillClass: "text-bootstrap",
         skillName: "Bootstrap",
       },
     ],
@@ -55,15 +59,18 @@ const projectCards: Project[] = [
     repositorylinkText: "Source Code",
     projectSkills: [
       {
-        skillIcon: "bi bi-filetype-php text-wordpress",
+        skillIcon: "wordpress",
+        skillClass: "text-wordpress",
         skillName: "WordPress",
       },
       {
-        skillIcon: "bi bi-filetype-css text-sass",
+        skillIcon: "sass",
+        skillClass: "text-sass",
         skillName: "SASS",
       },
       {
-        skillIcon: "bi bi-filetype-css text-bootstrap",
+        skillIcon: "bootstrap",
+        skillClass: "text-bootstrap",
         skillName: "Bootstrap",
       },
     ],
@@ -80,15 +87,18 @@ const projectCards: Project[] = [
     repositorylinkText: "Source Code",
     projectSkills: [
       {
-        skillIcon: "bi bi-filetype-php text-php",
+        skillIcon: "php",
+        skillClass: "text-php",
         skillName: "PHP",
       },
       {
-        skillIcon: "bi bi-filetype-js text-js",
+        skillIcon: "javascript",
+        skillClass: "text-js",
         skillName: "JavaScript",
       },
       {
-        skillIcon: "bi bi-filetype-css text-css",
+        skillIcon: "css",
+        skillClass: "text-css",
         skillName: "CSS",
       },
     ],
@@ -105,15 +115,18 @@ const projectCards: Project[] = [
     repositorylinkText: "Source Code",
     projectSkills: [
       {
-        skillIcon: "bi bi-filetype-js text-react",
+        skillIcon: "react",
+        skillClass: "text-react",
         skillName: "React",
       },
       {
-        skillIcon: "bi bi-filetype-tsx text-ts",
+        skillIcon: "typescript",
+        skillClass: "text-ts",
         skillName: "TypeScript",
       },
       {
-        skillIcon: "bi bi-filetype-css text-bootstrap",
+        skillIcon: "bootstrap",
+        skillClass: "text-bootstrap",
         skillName: "Bootstrap",
       },
     ],
@@ -130,15 +143,18 @@ const projectCards: Project[] = [
     repositorylinkText: "Source Code",
     projectSkills: [
       {
-        skillIcon: "bi bi-filetype-php text-php",
+        skillIcon: "php",
+        skillClass: "text-php",
         skillName: "PHP",
       },
       {
-        skillIcon: "bi bi-filetype-js text-js",
+        skillIcon: "javascript",
+        skillClass: "text-js",
         skillName: "JavaScript",
       },
       {
-        skillIcon: "bi bi-filetype-css text-css",
+        skillIcon: "css",
+        skillClass: "text-css",
         skillName: "CSS",
       },
     ],

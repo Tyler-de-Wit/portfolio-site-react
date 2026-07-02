@@ -1,3 +1,13 @@
+import bootstrapIcon from "../assets/icons/bootstrap.svg";
+import cssIcon from "../assets/icons/css.svg";
+import javascriptIcon from "../assets/icons/javascript.svg";
+import nextjsIcon from "../assets/icons/nextjs.svg";
+import phpIcon from "../assets/icons/php.svg";
+import reactIcon from "../assets/icons/react.svg";
+import sassIcon from "../assets/icons/sass.svg";
+import typescriptIcon from "../assets/icons/typescript.svg";
+import wordpressIcon from "../assets/icons/wordpress.svg";
+
 interface ProjectCardProps {
   project: {
     id: number;
@@ -11,6 +21,7 @@ interface ProjectCardProps {
     repositorylinkText: string;
     projectSkills: {
       skillName: string;
+      skillClass: string;
       skillIcon: string;
     }[];
   };
@@ -18,6 +29,43 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ project, position }: ProjectCardProps) => {
+  // Check and output the svg based on the passed technology name
+  const outputSvgIcon = (currentIcon: string) => {
+    let svgSource;
+
+    switch (currentIcon) {
+      case "bootstrap":
+        svgSource = bootstrapIcon;
+        break;
+      case "css":
+        svgSource = cssIcon;
+        break;
+      case "javascript":
+        svgSource = javascriptIcon;
+        break;
+      case "nextjs":
+        svgSource = nextjsIcon;
+        break;
+      case "php":
+        svgSource = phpIcon;
+        break;
+      case "react":
+        svgSource = reactIcon;
+        break;
+      case "sass":
+        svgSource = sassIcon;
+        break;
+      case "typescript":
+        svgSource = typescriptIcon;
+        break;
+      case "wordpress":
+        svgSource = wordpressIcon;
+        break;
+    }
+
+    return <img src={svgSource} width={25} height={25} className="mb-1 me-2" />;
+  };
+
   return (
     <div
       className={`project-card fade-in ${position === 1 ? "col-12 col-lg-6" : "col-12 col-lg-3"} ${position > 0 ? "d-none d-lg-block" : ""}`}
@@ -54,19 +102,15 @@ const ProjectCard = ({ project, position }: ProjectCardProps) => {
 
               {project.projectSkills.map((skill) =>
                 position === 1 ? (
-                  <span
-                    key={skill.skillName}
-                    className="me-3 fs-6 secondary-text"
-                  >
-                    <i className={`${skill.skillIcon} fs-4`}></i>
-                    {skill.skillName}
+                  <span key={skill.skillName}>
+                    {outputSvgIcon(skill.skillIcon)}
+                    <span className={`me-3 fs-6 ${skill.skillClass}`}>
+                      {skill.skillName}
+                    </span>
                   </span>
                 ) : (
-                  <span
-                    key={skill.skillName}
-                    className="me-3 fs-6 secondary-text"
-                  >
-                    <i className={`${skill.skillIcon} fs-4`}></i>
+                  <span key={skill.skillName} className="me-2">
+                    {outputSvgIcon(skill.skillIcon)}
                   </span>
                 ),
               )}
