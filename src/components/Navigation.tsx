@@ -8,7 +8,7 @@ function Navigation() {
       <Container>
         <Navbar.Brand>
           <img
-            src="https://placehold.co/30x30"
+            src="/tdw-logo.svg"
             width="30"
             height="30"
             className="d-inline-block align-top"

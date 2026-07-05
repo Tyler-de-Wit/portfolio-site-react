@@ -9,7 +9,7 @@ const FooterSection = () => {
         <div className="row gx-5 gy-4">
           <div className="col-12 col-lg-6 mb-4">
             <img
-              src="https://placehold.co/30x30"
+              src="/tdw-logo.svg"
               width="30"
               height="30"
               className="d-inline-block align-top mb-2"
