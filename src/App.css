@@ -213,3 +213,11 @@ header {
   background-color: var(--links);
   transform: scale(1.3);
 }
+
+/* Form Submission Alert */
+.form-submission-overlay {
+  z-index: 1055;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
