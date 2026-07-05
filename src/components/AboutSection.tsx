@@ -229,18 +229,18 @@ const AboutSection = () => {
               In the 3 years after graduating high school I have been working
               towards a full stack certification at North Metropolitan TAFE. The
               qualifications that I have completed during this time include the:
-              <ul>
-                <li>
-                  Certificate IV in Information Technology (Web Development)
-                </li>
-                <li>
-                  Diploma of Information Technology (Front End Web Development)
-                </li>
-                <li>
-                  Diploma of Information Technology (Back End Web Development)
-                </li>
-              </ul>
             </p>
+            <ul className="body-text">
+              <li>
+                Certificate IV in Information Technology (Web Development)
+              </li>
+              <li>
+                Diploma of Information Technology (Front End Web Development)
+              </li>
+              <li>
+                Diploma of Information Technology (Back End Web Development)
+              </li>
+            </ul>
             <p className="text-justify body-text">
               I can set up a personal blog site for you to document your
               interests. I can create a personal portfolio site just like this
