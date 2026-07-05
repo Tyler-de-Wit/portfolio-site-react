@@ -6,7 +6,7 @@ const SocialMediaLinks = () => {
         <i className="bi bi-envelope fs-4 me-3"></i>
       </a>
       {/* Resume */}
-      <a href="" target="_blank">
+      <a href="/tdw-resume.pdf" target="_blank">
         <i className="bi bi-file-person fs-4 me-3"></i>
       </a>
       {/* Linkedin */}

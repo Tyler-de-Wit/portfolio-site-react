@@ -27,7 +27,7 @@ const FooterSection = () => {
                 Contact
               </a>{" "}
               section. You can also view my{" "}
-              <a href="" className="link-text">
+              <a href="/tdw-resume.pdf" className="link-text" target="_blank">
                 resume
               </a>{" "}
               here.
