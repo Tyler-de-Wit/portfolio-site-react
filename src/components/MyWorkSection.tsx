@@ -68,19 +68,25 @@ const MyWorkSection = () => {
           </div>
 
           {/* Navigation Buttons */}
-          <div className="d-flex justify-content-center mt-1">
-            <button
-              onClick={handlePreviousProjectCard}
-              className="btn button-link-2 me-2 button-hover-drop"
-            >
-              <i className="bi bi-arrow-left me-2"></i>Previous
-            </button>
-            <button
-              onClick={handleNextProjectCard}
-              className="btn button-link-2 ms-2 button-hover-drop"
-            >
-              Next<i className="bi bi-arrow-right ms-2"></i>
-            </button>
+          <div className="container">
+            <div className="row g-0">
+              <div className="col-6 d-flex justify-content-end">
+                <button
+                  onClick={handlePreviousProjectCard}
+                  className="btn button-link-2 me-2 button-hover-drop"
+                >
+                  <i className="bi bi-arrow-left me-2"></i>Previous
+                </button>
+              </div>
+              <div className="col-6 d-flex justify-content-start">
+                <button
+                  onClick={handleNextProjectCard}
+                  className="btn button-link-2 ms-2 button-hover-drop"
+                >
+                  Next<i className="bi bi-arrow-right ms-2"></i>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
