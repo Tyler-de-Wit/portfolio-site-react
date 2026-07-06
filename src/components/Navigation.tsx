@@ -18,16 +18,25 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link href="#about" className="nav-link link-text">
+            <Nav.Link href="#about" className="nav-link fs-5 text-shadow-small">
               About Me
             </Nav.Link>
-            <Nav.Link href="#my-work" className="nav-link link-text">
+            <Nav.Link
+              href="#my-work"
+              className="nav-link fs-5 text-shadow-small"
+            >
               My Work
             </Nav.Link>
-            <Nav.Link href="#services" className="nav-link link-text">
+            <Nav.Link
+              href="#services"
+              className="nav-link fs-5 text-shadow-small"
+            >
               Services
             </Nav.Link>
-            <Nav.Link href="#contact" className="nav-link link-text">
+            <Nav.Link
+              href="#contact"
+              className="nav-link fs-5 text-shadow-small"
+            >
               Contact
             </Nav.Link>
           </Nav>

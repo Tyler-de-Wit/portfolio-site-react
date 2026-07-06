@@ -1,5 +1,4 @@
 import "./App.css";
-import Navigation from "./components/Navigation";
 import HeaderSection from "./components/HeaderSection";
 import AboutSection from "./components/AboutSection";
 import MyWorkSection from "./components/MyWorkSection";
@@ -11,7 +10,6 @@ function App() {
   return (
     <>
       <header id="header">
-        <Navigation />
         <HeaderSection />
       </header>
       <main>

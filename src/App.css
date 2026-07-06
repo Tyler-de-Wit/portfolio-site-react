@@ -16,10 +16,6 @@ header p {
   color: var(--body-text);
 }
 
-header {
-  background-color: var(--background);
-}
-
 #my-work {
   background-color: var(--background);
 }
@@ -220,4 +216,9 @@ header {
   background: rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+}
+
+/* Text Shadows */
+.text-shadow-small {
+  text-shadow: 1px 1px 2px var(--dark-background);
 }
