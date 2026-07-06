@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import projectCards from "../data/projectCards";
 import { useState, useEffect } from "react";
+import myWorkBackground from "../assets/backgrounds/mywork-background.png";
 
 const MyWorkSection = () => {
   const [startIndex, setStartIndex] = useState(0);
@@ -43,50 +44,63 @@ const MyWorkSection = () => {
     }
   }, [buttonClicked]);
 
+  // Style for the background image
+  const myWorkBackgroundStyle = {
+    backgroundImage: `url(${myWorkBackground})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    minHeight: "83vh",
+    backgroundColor: "#fffaf5",
+  };
+
   return (
     <>
-      <h2 className="text-center mb-4 pt-4 heading-text text-shadow-small">
-        My Work
-      </h2>
-      <div className="container pb-5">
-        <div className="row g-4">
-          {/* Projects */}
-          {visibleProjectCards.map((project, index) => (
-            <ProjectCard key={project.id} project={project} position={index} />
-          ))}
-
-          {/* Carousel Indicator */}
-          <div className="d-flex justify-content-center my-4">
-            {projectCards.map((_, index) => (
-              <button
-                key={index}
-                className={`carousel-dot ${startIndex === index ? "active" : ""}`}
-                onClick={() => {
-                  setStartIndex(index);
-                  setButtonClicked(true);
-                }}
+      <div style={myWorkBackgroundStyle}>
+        <h2 className="text-center mb-4 pt-4 light-text">My Work</h2>
+        <div className="container pb-5">
+          <div className="row g-4">
+            {/* Projects */}
+            {visibleProjectCards.map((project, index) => (
+              <ProjectCard
+                key={project.id}
+                project={project}
+                position={index}
               />
             ))}
-          </div>
 
-          {/* Navigation Buttons */}
-          <div className="container">
-            <div className="row g-0">
-              <div className="col-6 d-flex justify-content-end">
+            {/* Carousel Indicator */}
+            <div className="d-flex justify-content-center my-4">
+              {projectCards.map((_, index) => (
                 <button
-                  onClick={handlePreviousProjectCard}
-                  className="btn button-link-2 me-2 button-hover-drop"
-                >
-                  <i className="bi bi-arrow-left me-2"></i>Previous
-                </button>
-              </div>
-              <div className="col-6 d-flex justify-content-start">
-                <button
-                  onClick={handleNextProjectCard}
-                  className="btn button-link-2 ms-2 button-hover-drop"
-                >
-                  Next<i className="bi bi-arrow-right ms-2"></i>
-                </button>
+                  key={index}
+                  className={`carousel-dot ${startIndex === index ? "active" : ""}`}
+                  onClick={() => {
+                    setStartIndex(index);
+                    setButtonClicked(true);
+                  }}
+                />
+              ))}
+            </div>
+
+            {/* Navigation Buttons */}
+            <div className="container">
+              <div className="row g-0">
+                <div className="col-6 d-flex justify-content-end">
+                  <button
+                    onClick={handlePreviousProjectCard}
+                    className="btn button-link-2 me-2 button-hover-drop"
+                  >
+                    <i className="bi bi-arrow-left me-2"></i>Previous
+                  </button>
+                </div>
+                <div className="col-6 d-flex justify-content-start">
+                  <button
+                    onClick={handleNextProjectCard}
+                    className="btn button-link-2 ms-2 button-hover-drop"
+                  >
+                    Next<i className="bi bi-arrow-right ms-2"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>

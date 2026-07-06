@@ -16,10 +16,6 @@ header p {
   color: var(--body-text);
 }
 
-#my-work {
-  background-color: var(--background);
-}
-
 /* Button Links */
 .button-link {
   color: var(--background);
@@ -111,6 +107,9 @@ header p {
 }
 .link-text:hover {
   color: var(--accents);
+}
+.light-text {
+  color: var(--background);
 }
 
 /* Background Colours */
