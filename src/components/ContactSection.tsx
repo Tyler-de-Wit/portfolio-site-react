@@ -83,7 +83,7 @@ const ContactSection = () => {
         }}
       />
 
-      <h2 className="heading-text">Contact Me</h2>
+      <h2 className="heading-text text-shadow-small">Contact Me</h2>
       <form className="mt-4" onSubmit={handleSubmit}>
         {/* Name */}
         <div className="mb-3">

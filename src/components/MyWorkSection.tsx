@@ -45,7 +45,9 @@ const MyWorkSection = () => {
 
   return (
     <>
-      <h2 className="text-center mb-4 pt-4 heading-text">My Work</h2>
+      <h2 className="text-center mb-4 pt-4 heading-text text-shadow-small">
+        My Work
+      </h2>
       <div className="container pb-5">
         <div className="row g-4">
           {/* Projects */}

@@ -215,7 +215,7 @@ const AboutSection = () => {
           </div>
           <div className="col-12 col-lg-6 mb-4">
             <h2 className="fs-6 m-0 heading-text">Who am I?</h2>
-            <h3 className="fs-1 mb-3 heading-text">
+            <h3 className="fs-1 mb-3 heading-text text-shadow-small">
               Web Development Freelancer
             </h3>
             <p className="text-justify body-text">
