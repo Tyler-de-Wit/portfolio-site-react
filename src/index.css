@@ -16,6 +16,12 @@
   box-sizing: border-box;
 }
 
+/* Hide overflow on mobile */
+html,
+body {
+  overflow-x: hidden;
+}
+
 /* Import Headings Font */
 @font-face {
   font-family: "SpaceGrotesk";
