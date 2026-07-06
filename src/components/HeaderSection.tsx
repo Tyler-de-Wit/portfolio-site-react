@@ -7,7 +7,8 @@ const HeaderSection = () => {
     backgroundImage: `url(${headerBackground})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "70vh",
+    minHeight: "70vh",
+    backgroundColor: "#fffaf5",
   };
 
   const { ref, inView } = useInView({
@@ -18,13 +19,13 @@ const HeaderSection = () => {
 
   return (
     <>
-      <div style={headerBackgroundStyle}>
+      <div style={headerBackgroundStyle} className="d-flex flex-column">
         <div className="container">
           <Navigation />
         </div>
 
-        <div className="container h-100 d-flex align-items-center">
-          <div className="row align-items-center w-100 mb-5">
+        <div className="container flex-grow-1 d-flex align-items-center">
+          <div className="row align-items-center w-100">
             <div className="col-12 col-lg-8 mb-5">
               <h1 className="fs-5 m-0">Hi, I'm Tyler</h1>
               <h2
