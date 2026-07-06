@@ -32,14 +32,14 @@ const AboutSection = () => {
       <div className="container mt-5 mb-4">
         <div className="row g-5 align-items-center">
           <div className="col-12 col-lg-6 mb-4">
-            <div className="row mb-5">
+            <div className="row">
               <div
-                className={`col-12 col-lg-6 ${inViewFrameworks ? "fade-in-top" : "invisible"}`}
+                className={`col-6 col-lg-6 ${inViewFrameworks ? "fade-in-top" : "invisible"}`}
                 ref={refFrameworks}
               >
                 {/* Frameworks / Libraries */}
-                <h2 className="fs-4 heading-text">Frameworks / Libraries</h2>
-                <ul className="list-group mb-4">
+                <h2 className="fs-4 heading-text">Frameworks</h2>
+                <ul className="list-group mb-5">
                   <li className="list-group-item list-group-item-action card-background thin-border text-next">
                     <img
                       src={nextjsIcon}
@@ -97,12 +97,12 @@ const AboutSection = () => {
                 </ul>
               </div>
               <div
-                className={`col-12 col-lg-6 ${inViewLanguages ? "fade-in-top" : "invisible"}`}
+                className={`col-6 col-lg-6 ${inViewLanguages ? "fade-in-top" : "invisible"}`}
                 ref={refLanguages}
               >
                 {/* Languages */}
                 <h2 className="fs-4 heading-text">Languages</h2>
-                <ul className="list-group mb-4">
+                <ul className="list-group mb-5">
                   <li className="list-group-item list-group-item-action card-background thin-border text-js">
                     <img
                       src={javascriptIcon}
@@ -163,12 +163,12 @@ const AboutSection = () => {
 
             <div className="row">
               <div
-                className={`col-12 col-lg-6 ${inViewTools ? "fade-in-top" : "invisible"}`}
+                className={`col-6 col-lg-6 ${inViewTools ? "fade-in-top" : "invisible"}`}
                 ref={refTools}
               >
                 {/* Tools */}
                 <h2 className="fs-4 heading-text">Tools</h2>
-                <ul className="list-group mb-4">
+                <ul className="list-group mb-lg-5">
                   <li className="list-group-item list-group-item-action card-background thin-border body-text">
                     <i className="bi bi-git me-3"></i>Git
                   </li>
@@ -187,12 +187,12 @@ const AboutSection = () => {
                 </ul>
               </div>
               <div
-                className={`col-12 col-lg-6 ${inViewSkills ? "fade-in-top" : "invisible"}`}
+                className={`col-6 col-lg-6 ${inViewSkills ? "fade-in-top" : "invisible"}`}
                 ref={refSkills}
               >
                 {/* Soft Skills */}
                 <h2 className="fs-4 heading-text">Soft Skills</h2>
-                <ul className="list-group mb-4">
+                <ul className="list-group mb-lg-5">
                   <li className="list-group-item list-group-item-action card-background thin-border body-text">
                     <i className="bi bi-alarm me-3"></i>Efficient Time
                     Management

@@ -13,7 +13,7 @@ function App() {
         <HeaderSection />
       </header>
       <main>
-        <section id="about" className="pt-5 pb-5">
+        <section id="about" className="pt-lg-5 pb-lg-5">
           <AboutSection />
         </section>
         <section id="my-work">
