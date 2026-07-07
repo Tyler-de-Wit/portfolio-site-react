@@ -38,7 +38,7 @@ const AboutSection = () => {
                 ref={refFrameworks}
               >
                 {/* Frameworks / Libraries */}
-                <h2 className="fs-4 heading-text">Frameworks</h2>
+                <h3 className="fs-4 heading-text">Frameworks</h3>
                 <ul className="list-group mb-5">
                   <li className="list-group-item list-group-item-action card-background thin-border text-next">
                     <img
@@ -107,7 +107,7 @@ const AboutSection = () => {
                 ref={refLanguages}
               >
                 {/* Languages */}
-                <h2 className="fs-4 heading-text">Languages</h2>
+                <h3 className="fs-4 heading-text">Languages</h3>
                 <ul className="list-group mb-5">
                   <li className="list-group-item list-group-item-action card-background thin-border text-js">
                     <img
@@ -179,7 +179,7 @@ const AboutSection = () => {
                 ref={refTools}
               >
                 {/* Tools */}
-                <h2 className="fs-4 heading-text">Tools</h2>
+                <h3 className="fs-4 heading-text">Tools</h3>
                 <ul className="list-group mb-lg-5">
                   <li className="list-group-item list-group-item-action card-background thin-border body-text">
                     <i className="bi bi-git me-3"></i>Git
@@ -203,7 +203,7 @@ const AboutSection = () => {
                 ref={refSkills}
               >
                 {/* Soft Skills */}
-                <h2 className="fs-4 heading-text">Soft Skills</h2>
+                <h3 className="fs-4 heading-text">Soft Skills</h3>
                 <ul className="list-group mb-lg-5">
                   <li className="list-group-item list-group-item-action card-background thin-border body-text">
                     <i className="bi bi-alarm me-3"></i>Efficient Time
