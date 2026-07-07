@@ -169,6 +169,7 @@ const ContactSection = () => {
           </label>
           <textarea
             className="form-control"
+            id="contactMessage"
             aria-label="Write A Message"
             rows={5}
             name="message"
