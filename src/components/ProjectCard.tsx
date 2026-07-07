@@ -63,7 +63,15 @@ const ProjectCard = ({ project, position }: ProjectCardProps) => {
         break;
     }
 
-    return <img src={svgSource} width={25} height={25} className="mb-1 me-2" />;
+    return (
+      <img
+        src={svgSource}
+        width={25}
+        height={25}
+        className="mb-1 me-2"
+        alt={svgSource}
+      />
+    );
   };
 
   return (

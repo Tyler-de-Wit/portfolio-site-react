@@ -46,6 +46,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="Nextjs Icon"
                     />
                     Next.js
                   </li>
@@ -55,6 +56,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="React Icon"
                     />
                     React
                   </li>
@@ -64,6 +66,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="Laravel Icon"
                     />
                     Laravel
                   </li>
@@ -73,6 +76,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="WordPress Icon"
                     />
                     WordPress
                   </li>
@@ -82,6 +86,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="Bootstrap Icon"
                     />
                     Bootstsrap
                   </li>
@@ -91,6 +96,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="SASS Icon"
                     />
                     SASS
                   </li>
@@ -109,6 +115,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="JavaScript Icon"
                     />
                     JavaScript
                   </li>
@@ -118,6 +125,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="TypeScript Icon"
                     />
                     TypeScript
                   </li>
@@ -127,6 +135,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="PHP Icon"
                     />
                     PHP
                   </li>
@@ -136,6 +145,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="CSS Icon"
                     />
                     CSS
                   </li>
@@ -145,6 +155,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="HTML Icon"
                     />
                     HTML
                   </li>
@@ -154,6 +165,7 @@ const AboutSection = () => {
                       width={25}
                       height={25}
                       className="mb-1 me-3"
+                      alt="XML Icon"
                     />
                     XML
                   </li>
