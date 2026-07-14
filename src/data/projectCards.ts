@@ -47,6 +47,7 @@ const projectCards: Project[] = [
       },
     ],
   },
+
   {
     id: 2,
     imageSrc: "/library-website.png",
@@ -77,6 +78,34 @@ const projectCards: Project[] = [
   },
   {
     id: 3,
+    imageSrc: "/blackjack-game.png",
+    imageAlt: "Blackjack game thumbnail",
+    title: "Blackjack Game",
+    text: "Single player Blackjack game with a betting system similar to a casino, made entirely with React, SVG's and vanilla CSS.",
+    liveSitelinkHref: "https://blackjack.tylerdewit.com/",
+    liveSitelinkText: "Live Demo",
+    repositorylinkHref: "https://github.com/Tyler-de-Wit/black-jack-react",
+    repositorylinkText: "Source Code",
+    projectSkills: [
+      {
+        skillIcon: "react",
+        skillClass: "text-react",
+        skillName: "React",
+      },
+      {
+        skillIcon: "typescript",
+        skillClass: "text-ts",
+        skillName: "TypeScript",
+      },
+      {
+        skillIcon: "css",
+        skillClass: "text-css",
+        skillName: "CSS",
+      },
+    ],
+  },
+  {
+    id: 4,
     imageSrc: "/tilspics.png",
     imageAlt: "TilsPics thumbnail",
     title: "TilsPics",
@@ -104,7 +133,7 @@ const projectCards: Project[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     imageSrc: "/portfolio-website.png",
     imageAlt: "Portfolio website thumbnail",
     title: "Portfolio Website",
@@ -132,7 +161,7 @@ const projectCards: Project[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     imageSrc: "/guitarmatchup.png",
     imageAlt: "GuitarMatchup thumbnail",
     title: "GuitarMatchup",
